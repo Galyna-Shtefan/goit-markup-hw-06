@@ -239,14 +239,14 @@ input {
     width: calc((100% - 72px) / 4);
 }
 
-/* .features-subtitle {
+.features-subtitle {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
     margin-bottom: 8px;
-} */
+}
 
 /* .features-text {
     color: #434455;
@@ -279,7 +279,6 @@ input {
 .team {
     background: #F4F4FD;
     padding: 120px 0;
-
 }
 
 .team-title {
