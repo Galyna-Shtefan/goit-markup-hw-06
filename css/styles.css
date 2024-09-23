@@ -748,9 +748,10 @@ button {
 
 
 @media screen and (min-width: 1158px) {
-    .portfolio{
-       padding: 120px 0; 
+    .portfolio {
+        padding: 120px 0;
     }
+
     .portfolio-list {
         gap: 48px 24px;
     }
@@ -791,7 +792,6 @@ button {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-bottom: 16px;
-
 
 }
 
@@ -928,13 +928,14 @@ button {
     .footer {
         padding: 96px 0;
     }
-     .footer-container{
+
+    .footer-container {
         max-width: 620px;
         justify-content: flex-start;
         align-items: flex-start;
         gap: 72px 24px;
-        padding-left: 108px;
-    
+        padding-left: 92px;
+
     }
 
     .footer-text {
@@ -971,18 +972,19 @@ button {
         max-width: 264px;
         margin-bottom: 0;
     }
+
     .link-icon-footer:hover,
-.link-icon-footer:focus {
-    background-color: #31D0AA;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+    .link-icon-footer:focus {
+        background-color: #31D0AA;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
 }
 
 @media screen and (min-width: 1158px) {
-    .footer{
+    .footer {
         padding: 100px 0;
     }
-    
+
     .footer-container {
         max-width: 1158px;
         flex-wrap: nowrap;
@@ -991,15 +993,18 @@ button {
         align-items: baseline;
         padding-left: 15px;
     }
-    .footer-form{
+
+    .footer-form {
         flex-wrap: nowrap;
         flex-direction: row;
     }
-    .logo-text{
-     margin-right: 120px;   
+
+    .logo-text {
+        margin-right: 120px;
     }
+
     .social-media {
         margin-right: 80px;
     }
-    
+
 }
