@@ -297,6 +297,54 @@ button {
     margin-bottom: auto;
 }
 
+.nav-list-mobile {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: start;
+}
+
+.nav-link-mobile {
+    display: inline-block;
+    color: #2E2F42;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+
+}
+
+.nav-link-mobile.current {
+    color: #404BBF;
+}
+
+.address-link-mobile {
+    color: #434455;
+
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.address-link-mobile.current {
+    color: #404BBF;
+}
+
+.nav-list-mobile {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 48px;
+}
+
+.address-list-mobile {
+
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
 @media screen and (min-width: 768px) {
     .mobile-menu {
         display: none;
